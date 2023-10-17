@@ -1,0 +1,81 @@
+/* Cores
+Cinza Claro: #7F7F7F
+Azul: #2E68FF
+Preto: #000000
+Azul Claro: #F4F9FF
+*/
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+section.centro {
+  width: 1216px;
+  margin: 0px auto;
+}
+
+header section.centro {
+  display: flex;
+  align-items: center;
+  justify-content: space-around
+}
+
+section.categorias ul {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  gap: 32px;
+}
+
+section.lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+
+section.produto-individual {
+  width: 382px;
+  text-align: center;
+}
+
+section.produto-individual img {
+  max-width: 382px;
+}
+
+section.banner img {
+  max-width: 1216px;
+}
+
+h2 {
+  font-size: 48px;
+  color: black;
+}
+
+section.produto-individual p.nome {
+  font-size: 18px;
+}
+
+section.produto-individual p.valor {
+  font-size: 32px;
+  color: #7f7f7f;
+}
+
+nav {
+  display: flex;
+  gap: 48px;
+  font: 16px
+}
+
+
+
+a {
+  color: black;
+  text-decoration: none;
+}
